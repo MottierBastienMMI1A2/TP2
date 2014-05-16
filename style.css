@@ -1,16 +1,32 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	margin: 0;
+	background: #A73E5C;
+	width:100%;
+
 }
 
 #header
 {
-	background: #ccc;
+	background: #5C2849;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { 
+	padding:0 auto;
+	margin: 0; 
+	color: #FFD285;
+	text-align:center;
+}
+#header h1:hover{ 
+	padding:0 auto;
+	margin: 0; 
+	color: #FF733F;
+}
+
+a {
+	color:#FF733F;
+}
 
 #navigation
 {
@@ -48,16 +64,31 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
+	width: 95%;
 	-webkit-border-radius: 18px;
+	background-color:#FFD285;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+}
+
+#edito:hover
+{
+	clear: left;
+	padding: 20px;
+	margin: 20px;
+	width: 95%;
+	-webkit-border-radius: 18px;
+	background-color:#FFD285;
+	border-radius: 18px;
+	-webkit-box-shadow: 0px 0px 6px #000000;
+	box-shadow: 0px 0px 6px #000000;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	opacity: 1;
 }
 
 #edito h2
@@ -70,26 +101,41 @@
 #news
 {	
 	float: left;
-	width: 40%;
+	width: 95%;
 	padding: 20px;
 	margin: 20px;
+	background-color:#FFD285;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
 }
 
+#news:hover
+{	
+	float: left;
+	width: 95%;
+	padding: 20px;
+	margin: 20px;
+	background-color:#FFD285;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: 0px 0px 6px #000000;
+	box-shadow: 0px 0px 6px #000000;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	opacity: 1;
+}
+
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: right;
+	background: #5C2849;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
+	color:#FFD285;
 }
